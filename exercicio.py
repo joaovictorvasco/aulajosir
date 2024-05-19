@@ -24,7 +24,7 @@ def create_bar_chart(data):
 data = load_data()
 
 # Criar o título da aplicação
-st.title('Análise de Pontos por Nacionalidade')
+st.title('Análise de Pontos dos Pilotos de F1 por Nacionalidade')
 
 # Mostrar o gráfico
 create_bar_chart(data)
